@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing Button component renders as expected 1`] = `ShallowWrapper {}`;
+
+exports[`Testing Header component renders as expected 1`] = `ShallowWrapper {}`;
+
+exports[`Testing PokemonDetails component renders as expected 1`] = `ShallowWrapper {}`;
+
+exports[`Testing PokemonList component renders as expected 1`] = `ShallowWrapper {}`;

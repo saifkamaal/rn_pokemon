@@ -1,0 +1,28 @@
+import "react-native";
+import React from "react";
+import Button from "../app/components/Button/Button";
+import Header from "../app/components/Header";
+import PokemonList from "../app/components/PokemonList/pokemonList";
+import PokemonDetails from "../app/components/PokemonDetails/pokemonDetails";
+
+import renderer from "react-test-renderer";
+
+it("renders correctly", () => {
+  const tree = renderer.create(<Button />).toJSON();
+  expect(tree).toMatchSnapshot();
+});
+
+it("renders correctly", () => {
+  const tree = renderer.create(<Header />).toJSON();
+  expect(tree).toMatchSnapshot();
+});
+
+it("renders correctly", () => {
+  const tree = renderer.create(<PokemonList />).toJSON();
+  expect(tree).toMatchSnapshot();
+});
+
+it("renders correctly", () => {
+  const tree = renderer.create(<PokemonDetails />).toJSON();
+  expect(tree).toMatchSnapshot();
+});
