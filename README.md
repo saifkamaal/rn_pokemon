@@ -40,7 +40,7 @@ Run command to open Android emulator and run app:
 $ npm run android
 ```
 
-# If any issue or error occur in simulator or emulator
+# For any issue/errors in simulator or emulator
 
 run below command in your project root directory.
 

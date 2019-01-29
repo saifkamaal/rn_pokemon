@@ -54,7 +54,12 @@ class PokemonDetails extends Component<Props, State> {
     return (
       <View style={{ backgroundColor: "white" }}>
         <View style={styles.imageContainer}>
-          <Image source={{ uri: image.front_default }} style={styles.image} />
+          <Image
+            source={{
+              uri: image.front_default || "https://i.imgur.com/es7sovA.jpg"
+            }}
+            style={styles.image}
+          />
           <Text style={styles.name}>
             {name.charAt(0).toUpperCase() + name.slice(1)}
           </Text>
