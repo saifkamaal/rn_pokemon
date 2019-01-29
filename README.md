@@ -47,3 +47,14 @@ run below command in your project root directory.
 ```
 $ watchman watch-del-all && rm -rf $TMPDIR/react-* && rm -rf node_modules/ && npm cache verify && npm install && npm start -- --reset-cache
 ```
+
+# Rebuild the Platform folders
+
+delete the ios and android folders.
+
+run the bewlo commands
+
+```
+react-native upgrade
+react-native link
+```
